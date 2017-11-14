@@ -2,7 +2,7 @@
 * @Author: MrYyz
 * @Date:   2017-11-12 12:35:12
 * @Last Modified by:   Marte
-* @Last Modified time: 2017-11-12 20:36:31
+* @Last Modified time: 2017-11-14 21:39:34
 */
 
 jQuery(function($){
@@ -44,19 +44,19 @@ jQuery(function($){
         // 清除之前选过的背景图
         for(var i=0;i<curLen;i++){
             if(curType=='抛光' || curType=='净重'){
-                curPapa.children[i].style.backgroundImage = "url('../img/1(1).png')";
+                curPapa.children[i].style.backgroundImage = "url('../css/img/1(1).png')";
             }else if(curType=='颜色'){
-                curPapa.children[i].style.backgroundImage = "url('../img/1.png')";
+                curPapa.children[i].style.backgroundImage = "url('../css/img/1.png')";
             }
             curPapa.children[i].style.color = '#696969';
         };
 
         // 切换当前选项背景图
         if(curType=='抛光' || curType=='净重'){
-            e.target.style.backgroundImage = "url('../img/4_4.png')";
+            e.target.style.backgroundImage = "url('../css/img/4_4.png')";
             e.target.style.color = '#fff';
         }else if(curType=='颜色'){
-            e.target.style.backgroundImage = "url('../img/1_1.png')";
+            e.target.style.backgroundImage = "url('../css/img/1_1.png')";
             e.target.style.color = '#fff';
         }
 

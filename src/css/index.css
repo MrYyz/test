@@ -106,8 +106,12 @@
   text-align: center;
   color: #636363;
   font-weight: normal;
-  background: url("../img/1(1).png") no-repeat;
+  background: url("../css/img/1(1).png") no-repeat;
   margin: 0 1px;
+}
+
+#y_main .w .y_drill .y_DR .y_DRleft div p span:hover {
+  cursor: pointer;
 }
 
 #y_main .w .y_drill .y_DR .y_DRright .y_color, #y_main .w .y_drill .y_DR .y_DRright .y_clarity {
@@ -124,7 +128,7 @@
   border-right: 1px solid #ccc;
   color: #696969;
   font-weight: bold;
-  background: url("../img/2.png") 1px 1px no-repeat;
+  background: url("../css/img/2.png") 1px 1px no-repeat;
 }
 
 #y_main .w .y_drill .y_DR .y_DRright .y_color div:last-child, #y_main .w .y_drill .y_DR .y_DRright .y_clarity div:last-child {
@@ -137,13 +141,17 @@
   height: 19px;
   text-align: center;
   line-height: 20px;
-  background: url("../img/1.png") no-repeat;
+  background: url("../css/img/1.png") no-repeat;
   margin: 0 3px;
+}
+
+#y_main .w .y_drill .y_DR .y_DRright .y_color div:last-child span:hover, #y_main .w .y_drill .y_DR .y_DRright .y_clarity div:last-child span:hover {
+  cursor: pointer;
 }
 
 #y_main .w .y_drill .y_DR .y_DRright .y_clarity div:last-child span {
   width: 35px;
-  background: url("../img/1(1).png") no-repeat;
+  background: url("../css/img/1(1).png") no-repeat;
   margin: 0 3px;
 }
 
@@ -219,7 +227,7 @@
   line-height: 32px;
   color: #000;
   font-weight: bold;
-  background: url("../img/baikebg.png") no-repeat;
+  background: url("../css/img/baikebg.png") no-repeat;
 }
 
 #y_main .w .y_baike .y_bk div {

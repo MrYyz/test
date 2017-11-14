@@ -1,0 +1,46 @@
+#y_search .w {
+  height: 100px;
+  padding-top: 5px;
+}
+
+#y_search .w .y_Smiddle {
+  margin-left: 340px;
+  margin-top: 24px;
+}
+
+#y_search .w .y_Smiddle .y_Sfind, #y_search .w .y_Smiddle .y_Sbtn {
+  display: block;
+  width: 220px;
+  height: 36px;
+  padding-left: 5px;
+  line-height: 36px;
+  border: 1px solid #666;
+  border-right: none;
+  font-size: 14px;
+}
+
+#y_search .w .y_Smiddle .y_Sbtn {
+  width: 60px;
+  text-align: center;
+  padding: 0;
+  border: none;
+  background: #888;
+  color: #fff;
+  font-weight: bold;
+}
+
+#y_search .w .y_Smiddle .y_Sbtn:hover {
+  cursor: pointer;
+  color: #FF3030;
+}
+
+#y_search .w .y_Smiddle .y_hotKey li {
+  float: left;
+  margin: 5px 10px 0 0;
+  color: #aaa;
+}
+
+#y_search .w .y_Smiddle .y_hotKey li:hover {
+  cursor: pointer;
+  color: #FF3030;
+}

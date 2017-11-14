@@ -1,0 +1,84 @@
+// 指南
+#y_guide{
+    background: #E9E9E9;
+    border-top:1px solid #999;
+    .w{
+        height: 161px;
+        padding:15px 0;
+        ul{ 
+            float:left;
+            width:195px;
+            // height:130px;
+            padding-left:50px;
+            font-weight:bold;
+            border-left:1px solid #ccc;
+            li{
+                padding-bottom:5px;
+                b{color:#FF3030;font-size:18px;}
+            }
+            a{
+                display: block;
+                font-weight:normal;
+                padding-left:20px;
+                height:26px;
+                line-height: 26px;
+                color:#888;
+            }
+            a:hover{color:#FF3030;cursor:pointer;}
+        }
+    }
+}
+
+// 体验中心
+#y_center{
+    background: #333333;
+    .w{
+        height:95px;
+        padding-top:15px;
+        p{
+            height:30px;
+            line-height: 30px;
+            color:#aaa; 
+        }
+    }
+}
+// 认证信息
+#y_certificate{
+    .w{
+        display:flex;
+        justify-content:space-between;
+        height: 84px;
+        align-items:center;
+        a{
+            display: block;
+            width: 122px;
+            height: 52px;
+            background: url('../img/certificate1(y).png') -1px -1px  no-repeat;
+            border:1px solid #ccc;
+        }
+    }
+}
+// 链接
+#y_link{
+    background: #F0F0F0;
+    .w{
+        height:136px;
+        padding-top:20px;
+        color:#888;
+        .y_Lleft{
+            width: 64px;
+            text-align:right;
+            font-weight:bold;
+        }
+        .y_Lright{
+            width: 1116px;
+            height:40px;
+            a{padding:0 5px;color:#888;}
+        }
+        p{
+            padding-top:60px;
+            text-align:right;
+
+        }
+    }
+}

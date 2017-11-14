@@ -1,0 +1,205 @@
+@charset "UTF-8";
+#RegMain {
+  height: 546px;
+  background: #F6E3DF url("../img/registration.png") center center no-repeat;
+}
+
+#RegMain .w {
+  height: 546px;
+  position: relative;
+}
+
+#RegMain .w .register {
+  width: 362px;
+  height: 462px;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 1px 0 #ccc;
+  position: absolute;
+  right: 100px;
+  top: 50px;
+}
+
+#RegMain .w .register h3 {
+  height: 36px;
+  line-height: 36px;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+#RegMain .w .register h3 span {
+  color: #FF3030;
+  font-family: "Times New Roman";
+  letter-spacing: 5px;
+  padding-left: 10px;
+}
+
+#RegMain .w .register h3 a {
+  float: right;
+  color: #FF0000;
+}
+
+#RegMain .w .register .form-group {
+  width: 250px;
+  height: 32px;
+  margin-bottom: 15px;
+  margin-left: 52px;
+  border: 1px solid #ddd;
+  position: relative;
+  border-radius: 2px;
+}
+
+#RegMain .w .register .form-group label {
+  float: left;
+  width: 72px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+#RegMain .w .register .form-group #userphone, #RegMain .w .register .form-group #password1, #RegMain .w .register .form-group #password2 {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-left: 72px;
+  width: 176px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  font-size: 14px;
+  background: transparent;
+}
+
+#RegMain .w .register .form-group #code {
+  float: left;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  font-size: 14px;
+  background: transparent;
+  border-right: 1px solid　 #ccc;
+}
+
+#RegMain .w .register .form-group i {
+  float: left;
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ddd;
+  line-height: 30px;
+  text-align: center;
+}
+
+#RegMain .w .register .form-group a {
+  float: right;
+  width: 36px;
+  height: 30px;
+  line-height: 30px;
+  color: #f00;
+}
+
+#RegMain .w .register .form-group a:hover {
+  cursor: pointer;
+}
+
+#RegMain .w .register .form-group #sms {
+  float: left;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  font-size: 14px;
+  background: transparent;
+  border-right: 1px solid　 #ccc;
+}
+
+#RegMain .w .register .form-group .sms {
+  float: left;
+  width: 96px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#RegMain .w .register .form-group .regBtn {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-size: 12px;
+  background: url("../img/regBtn.png") center no-repeat;
+}
+
+#RegMain .w .register .form-group .regBtn:hover {
+  box-shadow: 1px 1px 1px 0 #333;
+  cursor: pointer;
+  color: #333;
+}
+
+#RegMain .w .register .form-group #password2 {
+  margin-bottom: 10px;
+}
+
+#RegMain .w .register div:nth-child(3) i {
+  letter-spacing: 5px;
+}
+
+#RegMain .w .register div:nth-child(7) {
+  border: 0 none;
+  margin-bottom: 10px;
+}
+
+#RegMain .w .register div:nth-child(7) input {
+  margin: 10px 0 0 5px;
+}
+
+#RegMain .w .register div:nth-child(7) > a {
+  float: right;
+  width: 90%;
+}
+
+#RegMain .w .register div:nth-child(8) {
+  border: 0 none;
+  height: 28px;
+  box-radius: 5px;
+}
+
+#RegMain .w .register div:nth-child(9) {
+  border: 0 none;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  height: 16px;
+  line-height: 16px;
+}
+
+#RegMain .w .register div:nth-child(10) {
+  border: 0 none;
+}
+
+#RegMain .w .register div:nth-child(10) ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+#RegMain .w .register div:nth-child(10) ul li {
+  flex: 1;
+  width: 70px;
+  height: 25px;
+}
+
+#RegMain .w .register div:nth-child(10) ul li:nth-child(1) {
+  background: url("../img/regQQ.png") center no-repeat;
+}
+
+#RegMain .w .register div:nth-child(10) ul li:nth-child(2) {
+  background: url("../img/regxinlang.png") center no-repeat;
+}
+
+#RegMain .w .register div:nth-child(10) ul li:nth-child(3) {
+  background: url("../img/regzhifubao.png") center no-repeat;
+}

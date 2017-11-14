@@ -1,0 +1,48 @@
+[{
+   "id":"1",
+   "name":"钻戒",
+   "title":"../img/Diamond1.png",
+   "species":["男戒","女戒","对戒"],
+   "price":["1000元以下","1000-1999元","2000-2999元","3000元以上"],
+   "lPic":"img/Diamond2.jpg",
+   "mPic":["img/Diamond3.jpg","img/Diamond4.jpg"],
+   "sPic":["img/Diamond5.jpg","img/Diamond6.jpg","img/Diamond7.jpg"],
+   "advertising":["img/y_advTwo1.jpg","img/y_advTwo2.jpg","img/y_advTwo3.jpg","img/y_advTwo4.jpg"]
+},{
+   "id":"2",
+   "name":"情侣对戒",
+   "title":"../img/couples1.png",
+   "species":["18K","钻石"],
+   "price":["3000-5000元","5000元以上"],
+   "lPic":"img/couples2.jpg",
+   "mPic":["img/couples3.jpg","img/couples4.jpg"],
+   "sPic":["img/couples5.jpg","img/couples6.jpg","img/couples7.jpg"]
+},{
+   "id":"3",
+   "name":"彩宝",
+   "title":"../img/treasure1.png",
+   "species":["碧玺","红宝石","蓝宝石","芙蓉石"],
+   "price":["1000-2000元","2000-3000元","3000-5000元","5000元以上"],
+   "lPic":"img/treasure2.jpg",
+   "mPic":["img/treasure3.jpg","img/treasure4.jpg"],
+   "sPic":["img/treasure5.jpg","img/treasure6.jpg","img/treasure7.jpg"],
+   "advertising":["img/treasure8.jpg"]
+},{
+   "id":"4",
+   "name":"珍珠",
+   "title":"../img/pearl1.png",
+   "species":["珍珠吊坠","珍珠耳饰"],
+   "price":["1000-2000元","2000-3000元","3000-5000元","5000元以上"],
+   "lPic":"img/pearl2.jpg",
+   "mPic":["img/pearl3.jpg","img/pearl4.jpg"],
+   "sPic":["img/pearl5.jpg","img/pearl6.jpg","img/pearl7.jpg"]
+},{
+   "id":"5",
+   "name":"黄金",
+   "title":"../img/gold1.png",
+   "species":["投资金条","黄金饰品"],
+   "price":["1000元以下","1000-1999元","2000-2999元","3000元以上"],
+   "lPic":"img/gold2.jpg",
+   "mPic":["img/gold3.jpg","img/gold4.jpg"],
+   "sPic":["img/gold5.jpg","img/gold6.jpg","img/gold7.jpg"]
+}]

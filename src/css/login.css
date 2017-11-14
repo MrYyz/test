@@ -1,0 +1,86 @@
+#LoginMain {
+  height: 546px;
+  background: #F9EAE7 url("../img/login.png") center center no-repeat;
+}
+
+#LoginMain .form {
+  width: 360px;
+  height: 330px;
+  position: absolute;
+  right: 165px;
+  top: 105px;
+}
+
+#LoginMain .form div:first-child {
+  width: 360px;
+  height: 36px;
+  line-height: 36px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+#LoginMain .form div:nth-child(2) {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 26px;
+  padding-left: 120px;
+  font-size: 18px;
+}
+
+#LoginMain .form div:nth-child(2) input {
+  width: 140px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+
+#LoginMain .form div:nth-child(3) {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 18px;
+  padding-left: 120px;
+  font-size: 18px;
+}
+
+#LoginMain .form div:nth-child(3) input {
+  width: 140px;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+
+#LoginMain .form div:nth-child(4) {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  padding: 0 10px 0 53px;
+  font-size: 12px;
+}
+
+#LoginMain .form div:nth-child(4) a {
+  float: right;
+}
+
+#LoginMain .form div:nth-child(5) {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+
+#LoginMain .form div:nth-child(5) span {
+  background: transparent;
+  color: #fff;
+}
+
+#LoginMain .form div:nth-child(6) {
+  margin-top: 50px;
+  padding-left: 53px;
+}
+
+#LoginMain .form div:nth-child(6) a {
+  display: inline-block;
+  width: 75px;
+  height: 58px;
+}

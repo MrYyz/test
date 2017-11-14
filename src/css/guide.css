@@ -1,0 +1,101 @@
+#y_guide {
+  background: #E9E9E9;
+  border-top: 1px solid #999;
+}
+
+#y_guide .w {
+  height: 161px;
+  padding: 15px 0;
+}
+
+#y_guide .w ul {
+  float: left;
+  width: 195px;
+  padding-left: 50px;
+  font-weight: bold;
+  border-left: 1px solid #ccc;
+}
+
+#y_guide .w ul li {
+  padding-bottom: 5px;
+}
+
+#y_guide .w ul li b {
+  color: #FF3030;
+  font-size: 18px;
+}
+
+#y_guide .w ul a {
+  display: block;
+  font-weight: normal;
+  padding-left: 20px;
+  height: 26px;
+  line-height: 26px;
+  color: #888;
+}
+
+#y_guide .w ul a:hover {
+  color: #FF3030;
+  cursor: pointer;
+}
+
+#y_center {
+  background: #333333;
+}
+
+#y_center .w {
+  height: 95px;
+  padding-top: 15px;
+}
+
+#y_center .w p {
+  height: 30px;
+  line-height: 30px;
+  color: #aaa;
+}
+
+#y_certificate .w {
+  display: flex;
+  justify-content: space-between;
+  height: 84px;
+  align-items: center;
+}
+
+#y_certificate .w a {
+  display: block;
+  width: 122px;
+  height: 52px;
+  background: url("../img/certificate1(y).png") -1px -1px no-repeat;
+  border: 1px solid #ccc;
+}
+
+#y_link {
+  background: #F0F0F0;
+}
+
+#y_link .w {
+  height: 136px;
+  padding-top: 20px;
+  color: #888;
+}
+
+#y_link .w .y_Lleft {
+  width: 64px;
+  text-align: right;
+  font-weight: bold;
+}
+
+#y_link .w .y_Lright {
+  width: 1116px;
+  height: 40px;
+}
+
+#y_link .w .y_Lright a {
+  padding: 0 5px;
+  color: #888;
+}
+
+#y_link .w p {
+  padding-top: 60px;
+  text-align: right;
+}

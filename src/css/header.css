@@ -1,0 +1,9 @@
+/*-----------头顶-------------*/
+#header{background: #F3F3F3;font-size:12px;line-height: 38px;border-bottom:1px solid #ccc;}
+#header .w{height: 38px;}
+#header .w .y_Hleft{width:500px;}
+#header .y_Hleft a:nth-child(2){margin-right:10px;}
+#header a:hover{cursor:pointer;}
+#header .w .y_Hright li{float: left;padding-left:20px;}
+#header .w .y_Hright li a{font-size:12px;}
+#header .w .y_Hright li a strong,.y_Hright li a b,.y_Hright li:nth-child(4) a{color:#FF3030;}

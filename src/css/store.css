@@ -1,0 +1,72 @@
+#y_store .w .y_Sheader {
+  font-size: 20px;
+  padding-left: 15px;
+  height: 28px;
+  line-height: 28px;
+  margin-top: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid  #555;
+}
+
+#y_store .w .y_Sheader .y_SheaderUL {
+  font-size: 12px;
+}
+
+#y_store .w .y_Sheader .y_SheaderUL li {
+  float: left;
+  padding: 0 10px;
+  line-height: 28px;
+  height: 28px;
+  position: relative;
+}
+
+#y_store .w .y_Sheader .y_SheaderUL li:hover {
+  color: #FF3030;
+  cursor: pointer;
+}
+
+#y_store .w .y_Smain {
+  height: 227px;
+  border: 1px solid #666;
+  box-shadow: 1px 1px 1px 0 #666;
+}
+
+#y_store .w .y_Smain .y_SmLeft {
+  width: 670px;
+  height: 100%;
+  background: url("../img/map(y).png") no-repeat;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#y_store .w .y_Smain .y_SmLeft h2 {
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+#y_store .w .y_Smain .y_SmLeft p {
+  font-size: 14px;
+  padding: 5px;
+}
+
+#y_store .w .y_Smain .y_SmRight {
+  width: 500px;
+}
+
+#y_store .w .y_Sbottom {
+  margin-top: 2px;
+  height: 110px;
+  background: url("../img/store(y).png") no-repeat;
+}
+
+.triangle {
+  display: block;
+  border: 7px solid transparent;
+  border-bottom: 7px solid #CD0000;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 0);
+}

@@ -1,0 +1,7 @@
+#过滤根目录下的 node_modules 文件
+/node_modules
+
+#过滤所有压缩文件
+*.zip
+*.rar
+/ gulpfile.js

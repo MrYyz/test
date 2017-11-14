@@ -1,0 +1,19 @@
+// sass语法
+//     sass的使用
+//     兼容所有css语法
+//     变量、嵌套、混合、继承等
+    
+//全局变量     
+$mainColor:#58bc58;
+$bgColor:#efefef;
+$title1:20px;
+
+.box{
+    $box-width:300px;//--->局部变量
+    width:200px;height:100px;background-color:$bgColor;
+    
+    // 嵌套
+    h1{font-size:$title1;border-bottom:1px solid $mainColor;}
+    p{font-size:$title1;line-height: 20px;}
+    span{font-size:$title1;line-height: 20px;}
+}

@@ -1,0 +1,20 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #efefef;
+}
+
+.box h1 {
+  font-size: 20px;
+  border-bottom: 1px solid #58bc58;
+}
+
+.box p {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.box span {
+  font-size: 20px;
+  line-height: 20px;
+}
